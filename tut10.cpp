@@ -15,7 +15,7 @@ int main()
 
     //***************** sntax for For loop *********************//
 
-    // for (initializatoin; condition, updation)
+    // for (initialization; condition, updation)
     // {
     //     loop body (c++ code);
     // }
@@ -106,16 +106,16 @@ int main()
     //     i++;
     // } while (i<=40);
 
-//     int n, i = 1;
-//     cout << "Input a number :" << endl;
-//     cin >> n;
+    int n, i = 1;
+    cout << "Input a number :" << endl;
+    cin >> n;
 
-//     do
-//     {
-//         cout << n << " X " << i << " = " << n * i << endl;
-//         i++;
-//     } while (i <= 10);
-    // return 0;
+    do
+    {
+        cout << n << " X " << i << " = " << n * i << endl;
+        i++;
+    } while (i <= 10);
+    return 0;
 }
 
 

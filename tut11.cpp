@@ -10,7 +10,7 @@ int main()
     // {
     //     /* code */
     //     cout<<i<<endl;
-    //     if (i = 2)
+    //     if (i == 10)
     //     {
     //         break;
     //     }

@@ -9,7 +9,7 @@ int main()
     // & --> Address of operator 
     // * --> De reference operator
 
-    int a = 3 ;
+    int a = 3 ;  
     int* b;
     b = &a;    
     // & --> Address of operator 
