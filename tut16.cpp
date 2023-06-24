@@ -35,7 +35,7 @@ int swapPointer(int* a,int* b){   //temp   a    b
     *b = temp;                    //4      5    4
 }
 int main(){
-    int x = 4, y = 5;
+    int x = 4, y = 5;  
     // cout<<"The sum of 4 and 5 is "<<sum(a,b);
     cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl;
     // swap(x,y); // This will not swap a and b

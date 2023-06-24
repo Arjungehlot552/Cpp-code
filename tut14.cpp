@@ -1,41 +1,45 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
- // function and funtion prototype 
- 
 typedef struct employee
 {
     int eId;
-    char favChar;
+    char favchar;
     float salary;
-} ep;
+}ep;
 
-union employee
+union money
 {
+    /* data */
     int rice;
     char car;
-    float pounds;
+    float price;
 };
+
+
+
 
 int main(){
 
-    enum Meal{ breakfast, lunch, dinner};  //enum helps to good readeble;ex:[0,1,2,3,4......]
-    Meal m2 = dinner;
-    cout<<m2;
-    cout<<"Enter the employee eId for full detail "<<endl;
-    cin>>eId;
+    // union money m1;
+    // m1.rice = 10;
+    // cout << m1.rice << endl;
 
-    // we can also use ep in the place of stract employee --->
-    struct employee aman;
-    ep aman;
-    ep shubhum;
-    ep mahatma;
-    aman.eId = 1;
-    aman.favChar = 'c';
-    aman.salary=150;
-    cout<< "The employee id is " <<aman.eId <<endl;
-    cout<< "The favchar is " <<aman.favChar <<endl;
-    cout<< "The salary is " <<aman.salary <<endl;
-    
-    return 0;
+    // ep hari;
+    // struct employee subhum;
+    // struct employee karn;
+    // struct employee kundan;
+    // struct employee hari;
+    // hari.eId = 101;
+    // hari.favchar ='a';
+    // hari.salary = 100000;
+    // cout << " The value is "<<hari.eId<<endl;
+    // cout << " The value is "<<hari.favchar<<endl;
+    // cout << " The value is "<<hari.salary<<endl;
+
+    enum Meal { breakfast, dinner, lunch , jbmnkree};
+    Meal m1 = dinner;
+    cout<<(m1==1);
+ 
+return 0;
 }

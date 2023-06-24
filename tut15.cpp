@@ -4,10 +4,10 @@ using namespace std;
 //******************Function and function prototypes***************//
 //*** function *** //
 
-// int sum(int a, int b){
-//     int c = a +b;
-//     return c ;
-// }
+int sum(int a, int b){
+    int c = a +b;
+    return c ;
+}
 // int main()
 // {
 //     int num1, num2;
@@ -43,11 +43,11 @@ int main()
     return 0;
 }
 
-int sum(int a, int b){
+// int sum(int a, int b){
     // Formal parameters a and b will be taking values from actual parameters num1 and num2.
-    int c = a +b;
-    return c ;
-};
+    // int c = a +b;
+    // return c ;
+// };
 
 void g(){
     cout<<"\n Hello My Future Wife";            
