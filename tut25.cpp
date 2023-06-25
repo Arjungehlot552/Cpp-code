@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// Array of Objects & Passing Objects as Function Arguments in C++
+
 class Employee{
     int id;
     int salary;

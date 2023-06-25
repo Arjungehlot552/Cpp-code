@@ -2,6 +2,7 @@
 using namespace std;
 
 //******************Function and function prototypes***************//
+
 //*** function *** //
 
 int sum(int a, int b){
@@ -21,7 +22,7 @@ int sum(int a, int b){
 // }
 
 // function prototype ************//
-// type finction-name (arguments);
+// type function-name (arguments);
 // int sum(int a, int b); //---> Acceptable
 // int sum(int a, b); //--->  Not Acceptable
 // int sum(int , int); //---> Acceptable

@@ -18,7 +18,7 @@ public:
     }
     void getData(void)
     {
-        cout << "The id of this employee is " << id << " and this is employee number" << count << endl;
+        cout << "The id of this employee is " << id << " and this is employee number " << count << endl;
     }
 
     static void getCount(void){
