@@ -376,51 +376,46 @@ int main()
     //     }
     // }
 
-
     //********* while loop **************//
 
-//     int digit,sum;
-//     sum = 0;
-//     digit = 1;
+    //     int digit,sum;
+    //     sum = 0;
+    //     digit = 1;
 
-//    while (digit <= 100)
-//    {
-//       sum += digit;
-//       digit ++;
-//    }
-   
-//    cout << "1+2+3+4......100 = " << sum <<endl;
+    //    while (digit <= 100)
+    //    {
+    //       sum += digit;
+    //       digit ++;
+    //    }
 
+    //    cout << "1+2+3+4......100 = " << sum <<endl;
 
-// int x,x_max;
-// cout << " First 100 odd number is \n ";
-// x = 1;
-// x_max = 100;
-// while (x <= x_max)
-// {
-//    cout << "x = " << x << endl;
-//    x = x + 2;
-// }
+    // int x,x_max;
+    // cout << " First 100 odd number is \n ";
+    // x = 1;
+    // x_max = 100;
+    // while (x <= x_max)
+    // {
+    //    cout << "x = " << x << endl;
+    //    x = x + 2;
+    // }
 
-//  int n , i;
-//  float a,sum , av;
-//  cout << "How many numbers ?\n ";
-//  cin >> n;
-//  i = 0;
-//  sum = 0;
-// while (i <= n-1)
-// {
-//    cout << "Enter a number \n ";
-//    cin >> a;
-//    sum = sum + a;
-//    i ++ ;
-// }
-// av = sum /n;
-// cout << " Sum is = " <<sum <<endl;
-// cout << " Average is = " <<av <<endl;
-
-
-
+    int n, i;
+    float a, sum, av;
+    cout << "How many numbers ?\n ";
+    cin >> n;
+    i = 0;
+    sum = 0;
+    while (i <= n - 1)
+    {
+        cout << "Enter a number \n ";
+        cin >> a;
+        sum = sum + a;
+        i++;
+    }
+    av = sum / n;
+    cout << " Sum is = " << sum << endl;
+    cout << " Average is = " << av << endl;
 
     return 0;
 }
