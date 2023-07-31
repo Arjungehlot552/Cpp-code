@@ -284,6 +284,8 @@ class Rectangle :public shape{
     Rectangle (double w , double h): shape(w,h){}  
     double getArea(){
         return width * height;
+
+        
     }
 };
 
